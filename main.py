@@ -1,8 +1,9 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+# load_dotenv()
+
 from langchain.llms import OpenAI
 import streamlit as st
 
-load_dotenv()
 lim = OpenAI()
 
 
